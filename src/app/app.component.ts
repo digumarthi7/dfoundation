@@ -7,13 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Digumarti Foundation';
-  imageObject: Array<object> = [{
-    image: 'assets/CSlider1.jpg',
-    thumbImage: 'assets/CSlider1.jpg'
-}, {
-  image: 'assets/CSlider2.jpg',
-  thumbImage: 'assets/CSlider2.jpg'
-},
+  imageObject: Array<object> = [
 {
   image: 'assets/CSlider3.jpg',
   thumbImage: 'assets/CSlider3.jpg'
@@ -21,10 +15,6 @@ export class AppComponent {
 {
   image: 'assets/CSlider4.jpg',
   thumbImage: 'assets/CSlider4.jpg'
-},
-{
-  image: 'assets/CSlider53.jpg',
-  thumbImage: 'assets/CSlider53.jpg'
 }
 ];
 }
